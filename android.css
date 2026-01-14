@@ -1,0 +1,125 @@
+@charset "UTf-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilex:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Monoton&display=swap');
+
+@font-face {
+    font-family:'Android' ;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+:root{
+    --fonte-android: 'Android', cursive;
+}
+body{
+    background-color: rgb(85, 188, 133);
+    font-family: sans-serif;
+}
+header{
+    background-image:linear-gradient(to bottom,#0fd416,#019a36,#023309);
+    padding: 15px;
+    margin: 0px;
+    border-radius: 10px 10px 11px 11px;
+}
+header h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+}
+header p{
+    color: white;
+    text-align: center;
+    font-size:15px;
+}
+header nav a{
+    text-decoration: none;
+    color: #019a36;
+    margin:5px ;
+    transition-duration:0.9s;
+    font-weight: bolder;
+}
+header nav a:hover{
+    color: #fdfdfd;
+    font-weight: bolder;
+    background-color: #019a36;
+    border-radius: 3px;
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    min-width: 300px;
+    max-width:1000px;
+    border-radius:0px 0px 10px 10px ;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgb(31, 29, 29);
+}
+main h1{
+    font-family: var(--fonte-android);
+    color: #023309;
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+}
+#droid{
+    background-image:linear-gradient(to right,#0CF25D,#4fdb8c,white) ;
+    text-indent:10px ;
+}
+main p{
+    text-indent:25px;
+    margin: 15px;
+}
+main img{
+    width: 100%;
+}
+div.video{
+    background-color: #024b05;
+    margin-bottom: 15px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+    border-radius: 5px;
+}
+div.video iframe{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+}
+main a{
+    text-decoration: none;
+    background-color: #51ea86;
+    color: rgb(1, 45, 1);
+    border-radius:5px;
+}
+main strong{
+    color: #019a36;
+}
+aside{
+    background-color: #019a36;
+    border-radius:10px;
+}
+aside h2{
+    background-color: #024b05;
+    color: white;
+    font-size: 20px;
+    text-indent:20px;
+    border-radius: 10px 10px 0 0;
+}
+ aside ul{
+    columns: 2;
+}
+div img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #023309;
+    margin: 10px;
+    border-radius:15px;
+}
