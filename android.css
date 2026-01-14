@@ -19,7 +19,7 @@ header{
     background-image:linear-gradient(to bottom,#0fd416,#019a36,#023309);
     padding: 15px;
     margin: 0px;
-    border-radius: 10px 10px 11px 11px;
+    border-radius: 10px 10px 3px 3px;
 }
 header h1{
     color: white;
